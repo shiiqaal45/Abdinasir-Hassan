@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <title>Af Soomaali Heerka Koowaad</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #222;
+    }
+    nav{
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-image: url(../image/d2.jpg);
+    }
+    nav a{
+        text-align: center;
+        text-decoration: none;
+        color:#bebdbd;
+      font-weight: bold;
+      justify-content: flex-start;
+    }
+  nav a:hover {
+          border-bottom: 2px solid rgb(182, 31, 31);
+        }
+    .hero {
+      background: url('koowad.jpg') no-repeat center center/cover;
+      text-align: center;
+      padding: 100px 20px 60px;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 34px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      margin-top: 10px;
+    }
+
+    .hero p {
+      background: #00bfa5;
+      color: white;
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-top: 30px;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .box {
+      position: relative;
+      width: 30%;
+      min-width: 250px;
+    }
+
+    .box img {
+      width: 100%;
+      border-radius: 4px;
+      display: block;
+    }
+
+    .box a {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-weight: bold;
+      font-size: 22px;
+      text-decoration: none;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 15px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .box a:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .description {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .box {
+        width: 90%;
+      }
+
+      .description {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav >
+    <a href="index.html">Bogga hore/forsiden</a>&nbsp;&nbsp;&nbsp;
+     <a href="book.html">AF soomaali/somalisk sprk</a>&nbsp;&nbsp;&nbsp;
+      <a href="service.html">Service</a>&nbsp;&nbsp;&nbsp;
+       <a href="contect.html">Laxariir/kontackt</a>&nbsp;&nbsp;&nbsp;
+        <a href="about.html">Nagu saabsan/OM oss</a>&nbsp;&nbsp;&nbsp;
+          <a href="help page.html">help page</a>&nbsp;&nbsp;&nbsp;
+        <a href="About me.html">About me</a>
+  </nav>
+
+  <div class="hero">
+    <h1>AF SOOMAALI HEERKA</h1>
+    <h2>KOOWAAD</h2>
+    <p>Barashada Af soomaaliga kaas oo loogu talo galay ardayda dugsiyada sare ee Norway</p>
+  </div>
+
+  <div class="section">
+    <div class="box">
+      <img src="koowad.jpg" alt="Akhris">
+      <a href="kowaad.html">AKHRIS (LESEFORSTÅELSE)</a>
+    </div>
+    <div class="box">
+      <img src="labaad.jpg" alt="Qorid">
+      <a href="service.html">QORID (STIL)</a>
+    </div>
+    <div class="box">
+      <img src="sadaxaad.jpg" alt="Dhegeysi">
+      <a href="service.html">DHEGEYSI (LYTTEFORSTÅELSE)</a>
+    </div>
+  </div>
+  <div class="description">
+    <div style="flex: 1;">
+      <h1 style="font-size: 20px; font-weight: bold;">AKHRISKA, QORIDA, DHEGAYSIGA IYO HADALKA</h1>
+    </div>
+    <div style="flex: 2;">
+      <p>
+       <h4> Afartan qeybood ee ay ka kooban tahay barashada luuqaddu ayaa muhiim u ah in aad heer ka gaartid afka ama aad ugu gudubtid heerarka kala duwan ee luuqada. Dhegeysiga iyo akhriska waa aqoontii luuqada oo kasbanaysid (input) halka ay qorida iyo hadalka ay noqonaayaan inaad wixii aad baratay aad soo saartid (output)</h4>
+      </p>
+    </div>
+  </div>
+  <div style="width: 100%;  auto;">
+    <img src="afaraad.jpg" alt="Sawir Weyn" style="min-width: 1200px; height: 400px; display: block; object-fit: cover;">
+  </div>
+
+  <footer>
+    Turkistunet 39, 1639 Gamle Fredrikstad, Norway | Phone: ‪+47 481 866 35‬ | Email: admin@afsomali.no<br>
+    Copyright © 2025 Afsomali
+  </footer>
+
+</body>
+</html>
